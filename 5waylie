@@ -91,7 +91,7 @@ local Main = Instance.new("Frame")
 Main.Name = "Main"
 Main.Parent = DoctorShiba
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+Main.BackgroundColor3 = Color3.fromRGB(131, 24, 219)
 Main.BackgroundTransparency = 0.100
 Main.BorderSizePixel = 0
 Main.ClipsDescendants = true
@@ -2089,7 +2089,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("TUPER HUB",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("5waylie",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
@@ -2142,7 +2142,7 @@ end)
 
 Main:AddSeperator("FastAttack and Settings")
 
-Main:AddToggle("SuperFastAttack(à¸¢à¸±à¸‡à¹ƒà¸Šà¹‰à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸™à¸°à¸„à¸£à¸±à¸š)",function()
+Main:AddToggle("SuperFastAttack"),function()
     
 local plr = game.Players.LocalPlayer
 
