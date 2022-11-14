@@ -1,5 +1,5 @@
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
-_G.Color = Color3.fromRGB(255,0,0)
+_G.Color = Color3.fromRGB(128,128,128)
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 
 repeat wait() until game:GetService("Players")
@@ -91,7 +91,7 @@ local Main = Instance.new("Frame")
 Main.Name = "Main"
 Main.Parent = DoctorShiba
 Main.AnchorPoint = Vector2.new(0.5, 0.5)
-Main.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+Main.BackgroundColor3 = Color3.fromRGB(00, 00, 00)
 Main.BackgroundTransparency = 0.100
 Main.BorderSizePixel = 0
 Main.ClipsDescendants = true
